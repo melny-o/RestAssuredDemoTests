@@ -1,0 +1,5 @@
+package RestAssuredDemoTests
+
+class RestUtils {
+
+}
