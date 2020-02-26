@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2ae6003-17a4-413f-9b72-779a5326b9f0" name="Default Changelist" comment="" />
+    <list default="true" id="e2ae6003-17a4-413f-9b72-779a5326b9f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssuredDemoTests/DeleteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssuredDemoTests/PutRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssuredDemoTests/ValidatingContentInBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssuredDemoTests/PostRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredDemoTests/PostRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssuredDemoTests/RestUtils.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredDemoTests/RestUtils.groovy" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +34,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1YIsSrxYdSsgFqjxrvQrew6sfIi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -35,7 +50,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DeleteRequest.deleteEmployee">
+    <configuration name="DeleteRequest.deleteEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAssuredDemoTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAssuredDemoTests" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredDemoTests.DeleteRequest" />
+      <option name="METHOD_NAME" value="deleteEmployee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetRequest.getWeatherDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredDemo" />
       <extension name="coverage">
@@ -52,9 +83,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PostRequest.addCustomer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAssuredDemoTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAssuredDemoTests" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredDemoTests.PostRequest" />
+      <option name="METHOD_NAME" value="addCustomer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PutRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAssuredDemoTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAssuredDemoTests" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredDemoTests.PutRequest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PutRequest.putRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAssuredDemoTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAssuredDemoTests" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredDemoTests.PutRequest" />
+      <option name="METHOD_NAME" value="putRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DeleteRequest.deleteEmployee" />
+        <item itemvalue="JUnit.PutRequest.putRequest" />
         <item itemvalue="JUnit.GetRequest.getWeatherDetails" />
+        <item itemvalue="JUnit.PutRequest" />
+        <item itemvalue="JUnit.PostRequest.addCustomer" />
       </list>
     </recent_temporary>
   </component>
@@ -70,5 +152,16 @@
       <updated>1582641445917</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
